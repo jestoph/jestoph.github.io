@@ -1,13 +1,13 @@
-title: "Jestoph's Blog"
+title: "jestoph's tech blog"
 author: Jestoph
-description: "A Blog"
+description: "A Tech Blog"
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
-email: "blog@gmail.com"
-twitter_username: "someusername"
-#github_username: "githubuser"
-#linkedin_username: "linkedinuser"
+# email: "blog@gmail.com"
+# twitter_username: "someusername"
+# github_username: "githubuser"
+# linkedin_username: "linkedinuser"
 
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
@@ -19,7 +19,7 @@ rss: rss
 kramdown:
   syntax_highlighter_opts:
     disable: true
-    
+ 
 plugins:
   - jekyll-feed
   - jekyll-sitemap

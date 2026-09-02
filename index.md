@@ -1,7 +1,1 @@
-This is your home page! Write whatever comes to mind.
-
-Maybe an about me section, or a short bio.
-
-Or maybe you can write a small summary about your blog.
-
-Whatever you want!
+Hi there! I'm a developer of sorts with a background in electrical engineering and lower-level system, but currently working on fairly standard workplace applications. I've been doing little projects for a long time as a learning tool and hobby, so I thought I'd starting writing about them here.
