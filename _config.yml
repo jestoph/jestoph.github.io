@@ -1,0 +1,34 @@
+theme: minima
+
+title: Jestoph's Blog
+author: Jestoph
+# email: TODO
+# url: TODO
+
+timezone: Etc/UTC
+future: false
+
+description: A Blog
+
+# Minima variables
+#twitter_username:     TODO 
+#github_username:      TODO
+#linkedin_username:    TODO
+#dribbble_username:    TODO
+#facebook_username:    TODO
+#flickr_username:      TODO
+#instagram_username:   TODO
+#pinterest_username:   TODO
+#youtube_username:     TODO
+#googleplus_username: TODO
+
+#rss: rss TODO: I'd like rss
+
+show_excerpts: false
+
+# Used by simple links page
+
+# header_pages:
+#   - resume.html # TODO
+#   - bookmarks.md
+
