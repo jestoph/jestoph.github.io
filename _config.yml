@@ -1,34 +1,36 @@
-theme: minima
-
-title: Jestoph's Blog
+title: "Jestoph's Blog"
 author: Jestoph
-# email: TODO
-# url: TODO
+description: "A Blog"
 
-timezone: Etc/UTC
-future: false
+# Email / Social media user names used by the minima theme:
+# All of these are optional and can be removed or commented out
+email: "blog@gmail.com"
+twitter_username: "someusername"
+#github_username: "githubuser"
+#linkedin_username: "linkedinuser"
 
-description: A Blog
+#########################################################################################
+######### Nothing below needs to be changed (unless you know what you're doing) #########
+#########################################################################################
+theme: "minima"
 
-# Minima variables
-#twitter_username:     TODO 
-#github_username:      TODO
-#linkedin_username:    TODO
-#dribbble_username:    TODO
-#facebook_username:    TODO
-#flickr_username:      TODO
-#instagram_username:   TODO
-#pinterest_username:   TODO
-#youtube_username:     TODO
-#googleplus_username: TODO
+rss: rss
 
-#rss: rss TODO: I'd like rss
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+    
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
 
-show_excerpts: false
+titles_from_headings:
+  strip_title: true
+  collections: true
 
-# Used by simple links page
-
-# header_pages:
-#   - resume.html # TODO
-#   - bookmarks.md
-
+defaults:
+  - scope:
+      path: ""
+      type: post
+    values:
+      tags: Other
