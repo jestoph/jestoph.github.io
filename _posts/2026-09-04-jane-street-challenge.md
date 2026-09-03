@@ -16,8 +16,6 @@ For some background I'd recommend looking at the original post on the Jane Stree
 
 And if you ever want to read the (terrible) code I used for this challenge, you can find it at my github page [here](https://github.com/jestoph/jane-street-puzzle)
 
-I wrote all of the code (and this text) the old fashioned way - hand-crafted artisnal, if you will.
-
 ## Challenge Accepted
 
 I have an engineering degree rotting away somewhere in my brain, so a lot of the words of the challenge
