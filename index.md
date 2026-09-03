@@ -1,1 +1,1 @@
-Hi there! I'm a developer of sorts with a background in electrical engineering and lower-level system, but currently working on fairly standard workplace applications. I've been doing little projects for a long time as a learning tool and hobby, so I thought I'd starting writing about them here.
+Old-school, hand-crafted, artisnal, free-range organic words from my brain to yours.
