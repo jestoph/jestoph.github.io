@@ -170,7 +170,7 @@ the connections.
 I don't use any tooling (other than excalidraw, my drawing program). I mostly just look at it real hard until things
 make sense. Again, I do things the hard way
 
-![Many Attempts on a Shift Register](img/shift-register.png)
+![Many Attempts on a Shift Register](/img/shift-register.png)
 
 Not pictured: Sanity
 
@@ -184,7 +184,7 @@ If only there were some way of doing this that didn't involve trading off my san
 
 A few hour later and it's done! I finally got this thing to work!
 
-![Waveform](img/in-with-a-chance.png)
+![Waveform](/img/in-with-a-chance.png)
 
 It's at this point I knew I had a chance of solving this thing, but it was a race against the clock, and my immune
 system was starting to give out.
@@ -226,14 +226,14 @@ Even stranger, the circuit has a connection on a neighboring pin that isn't even
 there's a bug here and it should be connected to one of the inputs? Given how little I understand, I sheepishly
 reported it to Jane Street.
 
-![Bug Report](img/Floating_wire.png)
+![Bug Report](/img/Floating_wire.png)
 
-![Bug Report](img/Unknown_pad_has_a_mcon_pin.png)
+![Bug Report](/img/Unknown_pad_has_a_mcon_pin.png)
 
 The next day I had an email confirming that I was right! But luckily it shouldn't have an impact on the actual results of
 the challenge. I quite sincerely think this bug report might be one of my coolest technical achievements.
 
-![Bug Response](img/bug-report.png)
+![Bug Response](/img/bug-report.png)
 
 ### Looking from a bird's eye view
 I spent a long time mapping out sections of subcircuits and the wires connecting them, and things started to
@@ -241,7 +241,7 @@ fall in to place. I worked out that the section that feeds the 'success' wire ha
 is slightly reduced to 'how do I make those 6 wires go high?', and luckily it seems like two of them do it
 after a certain number of clock cycles, so really it's only 4 wires.
 
-[Excalidraw of circuit](img/excalidraw-of-circuit.png)
+![Excalidraw of circuit](/img/excalidraw-of-circuit.png)
 
 I can see other patterns too. The left-most subcircuits seem to act like a signal generator which then feeds in
 to other sections of the circuit. So maybe the 'password' is hidden inside the structure of these elements?
@@ -293,7 +293,7 @@ that the circuit starts with all outputs at zero. So theoretically this is solva
 
 Hopefully the picture below explains a bit better what I mean
 
-![Recurrance Relation](img/recurrance-relation.png)
+![Recurrance Relation](/img/recurrance-relation.png)
 
 I focus on a shift register component as it's closest to the one I solved in the warmup puzzle (which is a nice touch
 of pedagogy, so thank you Ben and Anish!). There's some tricky constraints actually, I can tell it depends on previous
@@ -304,7 +304,7 @@ complicated to understand, but luckily I know the perfect tool
 
 I'm sorry for the abomination that I'm about to show you.
 
-[Verilog in gsheet](/img/verilog-in-gsheet.png)
+![Verilog in gsheet](/img/verilog-in-gsheet.png)
 
 Yes, that's a spreadsheet that I used to write verilog that I then fed in to my simulated circuit. Surprisingly,
 under the hood spreadsheets are actually incredibly sophisticated constraint solvers. I dumped the output into a
@@ -356,7 +356,7 @@ My hands started shaking because by this point the only way it could have a solu
 
 I loaded it in to my simulatori, run it, and there it is. The answer - `(* TWO STARS *)`
 
-![Two Stars](img/two-starts.pgn)
+![Two Stars](/img/two-starts.pgn)
 
 I emailed Jane Street, and the next morning I had my confirmation so I can now add it to my table of outputs -
 
