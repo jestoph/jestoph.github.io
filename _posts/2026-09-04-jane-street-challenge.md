@@ -265,7 +265,7 @@ I fixed that and immediately saw 'TRY AGAIN' as expected. Success!
 Even more interesting is, I deleted the input I was feeding to the circuit and I found it had other messages too:
 
 | Input          | Output      |
---------------------------------
+| -------------- | ----------- |
 | Wrong Answer   | `TRY AGAIN` |
 | All 0's        | `EMPTY SKY` |
 | All 1's        | `BIG BANG`  |
