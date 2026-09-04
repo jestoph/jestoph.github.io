@@ -23,6 +23,8 @@ a normal manufacturer.
 In any case, the challenge is to take a 'GDS' file describing a chip, and work backwards to understand what it does,
 and then I guess maybe there's a password in there or something. I didn't, and still don't, know what 'GDS' stand for.
 
+![The Warmup GDS File](/img/warmup-gds.png)
+
 There's two parts to the challenge - one is a warmup where you're given a lot more information (like the actual design of
 the chip), and the real puzzle where you're given a firm handshake and a 'good luck' as you face the increasing prospect
 of not sleeping for the next three weeks.
