@@ -354,7 +354,7 @@ verilog saved to 'out.txt'
 
 My hands started shaking because by this point the only way it could have a solution is if it had the answer.
 
-I loaded it in to my simulatori, run it, and there it is. The answer - `(* TWO STARS *)`
+I loaded it in to my simulator, run it, and there it is. The answer - `(* TWO STARS *)`
 
 ![Two Stars](/img/two-starts.pgn)
 
@@ -362,7 +362,7 @@ I emailed Jane Street, and the next morning I had my confirmation so I can now a
 
 
 | Input          | Output                  |
---------------------------------------------
+| -------------- | ----------------------- |
 | Wrong Answer   | `TRY AGAIN`             |
 | All 0's        | `EMPTY SKY`             |
 | All 1's        | `BIG BANG`              |
