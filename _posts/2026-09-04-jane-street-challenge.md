@@ -1,6 +1,12 @@
+---
+layout: post
+title: "On solving the Jane Street Reverse Engineering Challenge:
+date: 2026-09-04 12:00:00
+---
+
 ## On solving the Jane Street Reverse Engineering Challenge
 
 Or: Why do I always do things the hard way?
 
 
-COMING SOON. 
+Coming Soon.
